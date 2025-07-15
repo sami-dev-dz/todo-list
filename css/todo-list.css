@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    flex: 1;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.input::placeholder {
+    color: #999;
+}
+
+.add {
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #45a049;
+}
+
+.add:active {
+    transform: translateY(1px);
+}
+
+.tasks {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 100px;
+}
+
+.tasks .task {
+    background-color: #fafafa;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+}
+
+.tasks .task:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.tasks .task:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tasks .task.done {
+    opacity: 0.6;
+    text-decoration: line-through;
+    background-color: #f9f9f9;
+}
+
+.tasks .task.done:hover {
+    background-color: #f5f5f5;
+}
+
+.tasks .task .delete {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #f44336;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.tasks .task .delete:hover {
+    background-color: #da190b;
+}
+
+.tasks .task .delete:active {
+    transform: scale(0.95);
+}
+
+.tasks .empty {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 40px 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 0 10px;
+    }
+
+    .form {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .add {
+        margin-left: 0;
+        width: 100%;
+    }
+}
