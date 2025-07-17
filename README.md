@@ -5,13 +5,19 @@ It allows users to manage their daily tasks with a simple interface and persiste
 
 ---
 
+## 📸 Screenshot
+
+![App Screenshot](image/screenshot.png)
+
+---
+
 ## ⚙️ Features
 
-- ➕ Add new tasks easily
-- ✅ Mark tasks as completed
-- 🗑️ Delete tasks instantly
-- 💾 Persistent data using `localStorage`
-- 🧼 Minimal, mobile-friendly user interface
+- ➕ Add new tasks easily  
+- ✅ Mark tasks as completed  
+- 🗑️ Delete tasks instantly  
+- 💾 Persistent data using `localStorage`  
+- 🧼 Minimal, mobile-friendly user interface  
 
 ---
 
@@ -20,9 +26,8 @@ It allows users to manage their daily tasks with a simple interface and persiste
 - **HTML5** – Semantic structure  
 - **CSS3** – Custom styling *(see `to-do-list.css`)*  
 - **JavaScript (ES6)** – DOM manipulation & data logic  
-- **localStorage** – Data persistence
+- **localStorage** – Data persistence  
 
 ---
 
 ## 📁 Project Structure
-
