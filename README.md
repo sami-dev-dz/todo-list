@@ -31,3 +31,19 @@ It allows users to manage their daily tasks with a simple interface and persiste
 ---
 
 ## 📁 Project Structure
+
+## 📂 Project Structure
+
+```
+todo-list/
+│
+├── todo-list.html           # Main HTML file
+├── css/
+│   └── todo-list.css        # CSS styling
+├── js/
+│   └── todo-list.js         # Application logic
+├── image/
+│   └── screenshot.png       # UI screenshot
+└── README.md                # Project documentation
+
+```
