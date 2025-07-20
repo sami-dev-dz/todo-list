@@ -32,8 +32,6 @@ It allows users to manage their daily tasks with a simple interface and persiste
 
 ## 📁 Project Structure
 
-## 📂 Project Structure
-
 ```
 todo-list/
 │
